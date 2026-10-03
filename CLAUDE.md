@@ -2,22 +2,22 @@
 
 ## What This Repo Is
 
-Public GitHub repo for the **me-review** Claude Code plugin. Published at `monitoringevaluationstudio/me-review`. Contains 12 MEAL review skills. No separate commands/ directory: each skill carries its own input handling, criteria and output template. No code, no build step, pure markdown + JSON.
+Public GitHub repo for the **me-review** Claude Code plugin. Published at `mestudiohq/me-review`. Contains 12 MEAL review skills. No separate commands/ directory: each skill carries its own input handling, criteria and output template. No code, no build step, pure markdown + JSON.
 
 ## Git Identity (CRITICAL)
 
-This repo belongs to the **monitoringevaluationstudio** GitHub account, NOT Logic-Lab-HQ.
+This repo lives in the **mestudiohq** GitHub organization (owned by the monitoringevaluationstudio account; moved there 2026-10-03, and the old address redirects). Never Logic-Lab-HQ.
 
 **Local git config (already set):**
 - `user.name` = `MEStudio`
-- `user.email` = `Ben@monitoringevaluationstudio.com`
+- `user.email` = `contact@monitoringevaluationstudio.com`
 
-**SSH remote:** `git@github.com-mestudio:monitoringevaluationstudio/me-review.git`
+**SSH remote:** `git@github.com-mestudio:mestudiohq/me-review.git`
 
 **Rules:**
 - NEVER add `Co-Authored-By` lines to commits. No AI attribution, ever.
 - NEVER use the global git identity (Logic-Lab-HQ). The local config overrides it.
-- Commit author must always be `MEStudio <Ben@monitoringevaluationstudio.com>`.
+- Commit author must always be `MEStudio <contact@monitoringevaluationstudio.com>`.
 - Push only via SSH using the mestudio key (`~/.ssh/id_ed25519_mestudio`).
 - Only push when Ben explicitly asks.
 
@@ -45,7 +45,7 @@ and loads at runtime." Verified against `claude plugin validate` on v2.1.251.
   "description": "...",
   "author": { "name": "MEStudio", "email": "...", "url": "..." },
   "homepage": "https://www.monitoringevaluationstudio.com/plugins",
-  "repository": "https://github.com/monitoringevaluationstudio/me-review",
+  "repository": "https://github.com/mestudiohq/me-review",
   "license": "MIT",
   "keywords": ["monitoring-evaluation", "meal", "..."]
 }
@@ -65,7 +65,7 @@ community-marketplace review pipeline runs the same check.
 That is what lets users install with:
 
 ```
-/plugin marketplace add monitoringevaluationstudio/me-review
+/plugin marketplace add mestudiohq/me-review
 /plugin install me-review@me-review
 ```
 

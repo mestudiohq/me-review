@@ -2,7 +2,7 @@
   "name": "me-review",
   "owner": {
     "name": "MEStudio",
-    "email": "Ben@monitoringevaluationstudio.com",
+    "email": "contact@monitoringevaluationstudio.com",
     "url": "https://www.monitoringevaluationstudio.com"
   },
   "metadata": {
@@ -20,7 +20,7 @@
         "url": "https://www.monitoringevaluationstudio.com"
       },
       "homepage": "https://www.monitoringevaluationstudio.com/plugins",
-      "repository": "https://github.com/monitoringevaluationstudio/me-review",
+      "repository": "https://github.com/mestudiohq/me-review",
       "license": "MIT",
       "category": "analysis",
       "keywords": [

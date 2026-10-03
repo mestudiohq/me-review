@@ -5,11 +5,11 @@
   "description": "Professional M&E skills for monitoring, evaluation, accountability and learning. Review logframes, theories of change, indicators, evaluation TORs, M&E plans, proposals, sampling plans, surveys, baseline reports, progress reports, data quality assessments, and evaluation reports against established MEAL standards.",
   "author": {
     "name": "MEStudio",
-    "email": "Ben@monitoringevaluationstudio.com",
+    "email": "contact@monitoringevaluationstudio.com",
     "url": "https://www.monitoringevaluationstudio.com"
   },
   "homepage": "https://www.monitoringevaluationstudio.com/plugins",
-  "repository": "https://github.com/monitoringevaluationstudio/me-review",
+  "repository": "https://github.com/mestudiohq/me-review",
   "license": "MIT",
   "keywords": [
     "monitoring-evaluation",

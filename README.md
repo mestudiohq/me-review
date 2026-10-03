@@ -1,6 +1,6 @@
 # M&E Review
 
-[![Version](https://img.shields.io/badge/version-1.4.0-0B4F6C)](https://github.com/monitoringevaluationstudio/me-review/releases)
+[![Version](https://img.shields.io/badge/version-1.4.0-0B4F6C)](https://github.com/mestudiohq/me-review/releases)
 [![License](https://img.shields.io/badge/license-MIT-3AA6A0)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-D97706)](https://code.claude.com/docs/en/plugins)
 
@@ -38,7 +38,7 @@ Each skill produces a scored review with section-by-section ratings (PASS / PART
 Two commands. This repository is its own plugin marketplace, so you add it once and then install from it.
 
 ```
-/plugin marketplace add monitoringevaluationstudio/me-review
+/plugin marketplace add mestudiohq/me-review
 /plugin install me-review@me-review
 ```
 
